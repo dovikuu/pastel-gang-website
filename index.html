@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pastel Ganng</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h3>Rich from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h3>
+            <h1>The Silliest & <br>
+                    Most Awesome Gang <br>
+                    In The World!</h1>
+            <h2>It’s Circle Guy, Hat Guy & Red Guy. <br>
+                    They’re the best of friends.</h2>
+            <div class="character1"></div>
+            <div class="character2"></div>
+            <div class="character3"></div>
+            <a class="cta" class="alt" href="#more-info">Read More</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#" class="logo"></a>
+        <div id="more-info"></div>
+        <ul>
+            <li><a href="#more-info">More Info</a></li>
+            <li><a href="#story">The story</a></li>
+            <li><a href="javasript:()" onclick="showPopup();">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="more-info wrapper">
+        <h1>Join Our Fan Club</h1>
+        <p>Every week we have  <span class="hightlight">a party.</span>  If you want to join us then join our fan club. Members will also receive pictures of us in all kinds of shapes and sizes. Cool huh?</p>
+        <button class="cta" onclick="showPopup();" >Sign Me Up!</button>
+    </div>
+    <div id="story"></div>
+    <div class="sep"></div>
+    <div class="wrapper">
+        <div class="story">
+            <ul class="nb-list">
+                <li class="blue">Rock n Roll</li>
+                <li class="gray">blank</li>
+                <li class="yellow dragging">Laughter</li>
+                <li class="purple">Square Offs</li>
+                <li class="pink">Circuitous Routes</li>
+                <li class="salmon">Trigonometry</li>
+                <li class="blue">Rad Hats</li>
+                <li class="yellow">Being Silly</li>
+            </ul>
+            <h2>Left: Things We Find Important
+                    Below: Our Story</h2>
+            <p>Once upon a time there was a group of shapes. They were mostly black and rectangular. They were mean and very serious.</p>
+            <p>And so they kicked the 3 shapes that didn’t conform out of their gang, which was called the Right Angled Gang.</p>
+            <p>And so these 3 shapes were very sad, but found great joy and comfort being around each other. They soon started having a lot of fun, started rocking and rolling, started being silly, and became the most well-known shape gang in the universe.</p>
+            <p>They even started making fun of squares and rectangles in what they like to call ‘Square Offs’!</p>
+        </div>
+    </div>
+    <div class="sep">
+
+    </div>
+    <img src="" alt="">
+    <footer>
+        <span>Made by Rich from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a></span>
+    </footer>
+    <div class="popup" id="popup">
+            <div class="blanket"></div>
+            <div class="content">
+                <h2>Fill In Your Details</h2>
+                <form action="" class="action">
+                   <div class="row">
+                        <div class="item">
+                            <label>Your First Name</label>
+                            <input type="text" placeholder="Awsomeface" value="Shirley">
+                        </div>
+                        <div class="item">
+                                <label>Your Last Name</label>
+                                <input type="text" placeholder="Circleface">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="item">
+                                <label>Your Favourite Color</label>
+                                <input type="text" placeholder="Pink">
+                        </div>
+                        <div class="item">
+                                <label>Your Favourite Food</label>
+                                <input type="text" placeholder="Apple Pie">
+                        </div>
+                    </div>
+                    <button class="cta">I Want In!</button>
+                </form>
+                <button class="close" onclick="hidePopup();">Close</button>
+            </div>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
